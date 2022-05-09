@@ -1,7 +1,7 @@
 import React from "react";
 import Player from "./Player";
 
-function Display({ resulut, users }) {
+function Display() {
   return (
     <div className="display">
       <Player avatarUrl="/avatar/user.jpeg" name="User" />
