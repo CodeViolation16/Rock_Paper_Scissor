@@ -1,6 +1,5 @@
 export const getRandomGameItem = (gamesItems) => {
   const index = Math.floor(Math.random() * gamesItems.length);
-  console.log(index);
   return gamesItems[index];
 };
 
