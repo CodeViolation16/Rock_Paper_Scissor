@@ -32,13 +32,16 @@ export default function Main() {
   const [computerGameItem, setComputerGameItem] = useState(null);
 
   const handleGameItemChange = (gameItem) => {
-    if (gameItem !== userGameItem) {
-      setUserGameItem(gameItem);
-    }
-    const computerNewItem = getRandomGameItem(gameItems);
-    setComputerGameItem(computerNewItem);
-    setResult(calculatorUserWinner(userGameItem, computerNewItem));
+    setUserGameItem({ ...gameItem });
   };
+
+  useEffect(() => {
+    if (userGameItem) {
+      const computerNewItem = getRandomGameItem(gameItems);
+      setComputerGameItem(computerNewItem);
+      setResult(calculatorUserWinner(userGameItem, computerNewItem));
+    }
+  }, [userGameItem]);
 
   return (
     <div className="conainer">
