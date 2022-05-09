@@ -35,6 +35,10 @@ body {
   text-align: center;
 }
 
+.result-wrapper {
+  text-align: center;
+}
+
 .result {
   text-align: center;
   font-size: 25px;

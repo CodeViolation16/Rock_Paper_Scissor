@@ -31,21 +31,23 @@ export default function Main() {
   const [userGameItem, setUserGameItem] = useState(null);
   const [computerGameItem, setComputerGameItem] = useState(null);
 
+  const handleNewGame = () => {
+    const computerNewItem = getRandomGameItem(gameItems);
+    setComputerGameItem(computerNewItem);
+    setResult(calculatorUserWinner(userGameItem, computerNewItem));
+  };
+
   const handleGameItemChange = (gameItem) => {
     if (gameItem !== userGameItem) {
       setUserGameItem(gameItem);
     } else {
-      const computerNewItem = getRandomGameItem(gameItems);
-      setComputerGameItem(computerNewItem);
-      setResult(calculatorUserWinner(userGameItem, computerNewItem));
+      handleNewGame();
     }
   };
 
   useEffect(() => {
     if (userGameItem) {
-      const computerNewItem = getRandomGameItem(gameItems);
-      setComputerGameItem(computerNewItem);
-      setResult(calculatorUserWinner(userGameItem, computerNewItem));
+      handleNewGame();
     }
   }, [userGameItem]);
 
