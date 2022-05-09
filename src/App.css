@@ -27,10 +27,6 @@ body {
   border-radius: 5px;
 }
 
-.result-wrapper {
-  text-align: center;
-}
-
 .result-header {
   text-align: center;
 }
@@ -96,13 +92,18 @@ body {
   border-radius: 5px;
 }
 
+.choices-title {
+  text-align: center;
+}
+
 .choice {
   border-radius: 50%;
   width: 80px;
   height: 80px;
   cursor: pointer;
+  transition: transform 0.3s;
 }
 
-.choices-title {
-  text-align: center;
+.choice:hover {
+  transform: scale(1.1);
 }
