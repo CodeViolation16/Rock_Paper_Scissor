@@ -3,7 +3,7 @@ import Result from "./Result";
 import Display from "./Display";
 import Choices from "./Choices";
 
-import { getRandomGameItem, calculatorUserWinner } from "./utils";
+import { getRandomGameItem, calculatorUserWinner } from "../utils";
 
 const gameItems = [
   {
