@@ -38,7 +38,7 @@ export default function Main() {
   useEffect(() => {
     if (userGameItem) {
       const computerNewItem = getRandomGameItem(gameItems);
-      setComputerGameItem(computerNewItem);
+      setComputerGameItem({ ...computerNewItem });
       setResult(calculatorUserWinner(userGameItem, computerNewItem));
     }
   }, [userGameItem]);
