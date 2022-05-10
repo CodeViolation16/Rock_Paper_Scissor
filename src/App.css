@@ -101,7 +101,7 @@ body {
   width: 80px;
   height: 80px;
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .choice:hover {
