@@ -10,7 +10,8 @@ The purpose of this project is to practice our React pros.
 The pros are one of the most basic and important properties in React.
 
 You must have played the "Rock Paper Scissor Game" at least once. And now, we are making a Rock Paper Scissor Game website together that look like this
-![clock](https://ibb.co/JWTmcdC)
+![Demo Image](https://i.ibb.co/35b4Tsk/Screenshot-from-2022-05-09-21-43-09.png)
+
 [this is demo to see it in action !](https://rock-paper-scissor-trancaodua.netlify.app/)
 
 ## User Story
