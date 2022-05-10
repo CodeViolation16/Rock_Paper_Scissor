@@ -1,7 +1,7 @@
 ---
 author: Dua Tran
 title: Rock-Paper-Scissor game
-id: coder-school
+id: rock_paper_scissor_game_trancaodua
 ---
 
 # Rock Paper Scissor Game
@@ -11,7 +11,9 @@ The pros are one of the most basic and important properties in React.
 
 You must have played the "Rock Paper Scissor Game" at least once. And now, we are making a Rock Paper Scissor Game website together.
 
-[Demo Image](https://i.ibb.co/35b4Tsk/Screenshot-from-2022-05-09-21-43-09.png)
+| ![](https://i.ibb.co/35b4Tsk/Screenshot-from-2022-05-09-21-43-09.png) |
+| :-------------------------------------------------------------------: |
+|                      _Crock Paper Scrissor Game_                      |
 
 [Go to demo website !](https://rock-paper-scissor-trancaodua.netlify.app/)
 
