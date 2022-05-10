@@ -6,8 +6,8 @@ id: rock_paper_scissor_game_trancaodua
 
 # Rock Paper Scissor Game
 
-The purpose of this project is to practice our React pros.
 The pros are one of the most basic and important properties in React.
+The purpose of this project is to practice our React pros.
 
 You must have played the "Rock Paper Scissor Game" at least once. And now, we are making a Rock Paper Scissor Game website together.
 
