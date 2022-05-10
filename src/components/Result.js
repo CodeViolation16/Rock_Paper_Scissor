@@ -1,6 +1,6 @@
 import React from "react";
 
-function Result({ result, user1GameItem, user2GameItem }) {
+function Result({ "Your code here" }) {
   return (
     <div>
       <h1 className="result-header">Result</h1>

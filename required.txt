@@ -1,0 +1,26 @@
+REQUIRED:
+
+ - Player.js file:
+   + change code "<img className="avatar" src={avatarUrl} alt={name} />" to "<img className="avatar" src="Your code here" alt="Your code here" />" => target: known pass pros to component.
+   
+ -Result.js file: 
+   + change code "function Result({ result, user1GameItem, user2GameItem })" to "function Result({ "Your code here" })" => target: Known get pros from component.
+   
+   
+ -Choices.js:
+   +  change code: "<ChoiceCard
+            key={gameItem.id}
+            gameItem={gameItem}
+            handleGameItemChange={handleGameItemChange}
+          />" to "<ChoiceCard
+            key={gameItem.id}
+            gameItem={gameItem}
+            handleGameItemChange="Your code here" => target: known use pros is callback function.
+          />"
+ -ChoiceCard.js
+   + change code "const { url, name } = gameItem;" to "const { url, name } = "Your code here" => target: parse nest pros.
+   + change code "onClick={() => {handleGameItemChange(gameItem);}}" to "onClick={() => {"Your code here"}}" => target: known callback funcfion.
+   
+ - Main.js: 
+     + change code  "user1GameItem={userGameItem} user2GameItem={computerGameItem}" to "user1GameItem={"Your code here"}     user2GameItem={"Your code here"}" => target: known pass pros to component.
+     + change code  "gameItems={gameItems} handleGameItemChange={handleGameItemChange}" to "gameItems={"Your code here" handleGameItemChange={"Your code here"}" => target: known pass pros to component.
