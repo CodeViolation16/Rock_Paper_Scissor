@@ -1,8 +1,4 @@
----
-author: Dua Tran
-title: Rock-Paper-Scissor game
-id: rock_paper_scissor_game_trancaodua
----
+
 
 # Rock Paper Scissors Game
 
